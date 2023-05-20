@@ -1,0 +1,23 @@
+{
+  "name": "ethanjon.net",
+  "version": "1.0.0",
+  "description": "ethanjon.net",
+  "main": "index.html",
+  "scripts": {
+    "tailwind": "tailwindcss -i ./styles-src.css -o ./styles.css --watch",
+    "serve": "serve",
+    "dev": "run-p tailwind serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e10jon/ethanjon.net.git"
+  },
+  "author": "Ethan Jon",
+  "license": "ISC",
+  "homepage": "https://ethanjon.net",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "serve": "^14.2.0",
+    "tailwindcss": "^3.3.2"
+  }
+}
