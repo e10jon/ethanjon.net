@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    @apply leading-relaxed;
+  }
+
   a {
     @apply underline;
   }
 
   section {
     @apply my-4;
-  }
-
-  li {
-    @apply my-2;
   }
 
   h1 {
