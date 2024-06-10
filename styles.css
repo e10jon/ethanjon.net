@@ -592,6 +592,14 @@ h2 {
   max-width: 768px;
 }
 
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
