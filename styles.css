@@ -588,8 +588,20 @@ h2 {
   margin-bottom: 0.75rem;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .max-w-screen-md {
   max-width: 768px;
+}
+
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .overflow-x-auto {
